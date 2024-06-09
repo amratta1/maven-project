@@ -1,2 +1,5 @@
-package example.com;
+/**
+ * this is comment
+ */
+package com.example;
 
