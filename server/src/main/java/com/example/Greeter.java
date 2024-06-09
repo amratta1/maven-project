@@ -14,8 +14,8 @@ public class Greeter {
   }
 
   /**
-   *param some person greetings  
-   *return  greetings setring 
+   * @param some person greetings  
+   * @return  greetings setring 
    */
 
    public final String greet( final String someone) {
