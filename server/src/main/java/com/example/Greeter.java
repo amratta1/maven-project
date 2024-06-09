@@ -13,10 +13,9 @@ public class Greeter {
   }
 
   /**
-   * @param person greetings.  
-   * @return greetings setring. 
+   * @param someone person greetings 
+   * @return greetings string
    */
-
    public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
