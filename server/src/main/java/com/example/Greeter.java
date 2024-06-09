@@ -5,17 +5,15 @@ package com.example;
  */
 
 public class Greeter {
-
   /**
    * This is a constructor.
    */
   public Greeter() {
 
   }
-
   /**
-   * @param some person greetings.  
-   * @return  greetings setring. 
+   *person greetings.  
+   *greetings setring. 
    */
 
    public final String greet( final String someone) {
