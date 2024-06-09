@@ -1,4 +1,5 @@
 /**
  * this is package name 
  */
-package example.com
+
+package example.com;
