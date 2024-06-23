@@ -27,13 +27,13 @@ stages{
             parallel{
                 stage ('Deploy to Staging'){
                     steps {
-                        sh "scp -i /home/jenkins/.ssh/id_rsa **/target/*.war root@${params.tomcat_dev}:/var/lib/tomcat9/webapps"
+                        sh "scp  **/target/*.war root@${params.tomcat_dev}:/var/lib/tomcat9/webapps"
                     }
                 }
 
                 stage ("Deploy to Production"){
                     steps {
-                        sh "scp -i /home/jenkins/.ssh/id_rsa **/target/*.war root@${params.tomcat_prod}:/var/lib/tomcat9/webapps"
+                        sh " **/target/*.war root@${params.tomcat_prod}:/var/lib/tomcat9/webapps"
                     }
                 }
             }
